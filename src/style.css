@@ -44,16 +44,20 @@ html, body {
         font-size: 15px;
         margin: 5px;
     }
-    #BarAfter a:hover {
-        color:grey;
+        #BarAfter a:hover {
+            color: grey;
+        }
+    #BarAfter .madeby {
+        color: #DAA520;
+        float: left;
+        font-size: 15px;
+        margin: 5px;
+        cursor:default;
     }
-.madeby {
-    float: left;
-    font-size: 15px;
-    margin: 5px;
-}
-
-    #icon {
+        #BarAfter .madeby:hover {
+            color: #DAA520;
+        } 
+        #icon {
     position: absolute;
     top: 10px;
     margin-left: 10px;
@@ -83,7 +87,7 @@ html, body {
 }
 
 
-.donate {
+donate {
     margin: 20px;
     font-size: 30px;
     float: right;
