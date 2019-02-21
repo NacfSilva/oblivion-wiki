@@ -412,6 +412,8 @@ strong {
     left: 25%;
     height: 400px;
     width: 720px;
+    margin: auto;
+    text-align: center;
 }
 
 
@@ -419,8 +421,6 @@ strong {
 
 .quick-view-panel {
     z-index: 9999;
-    left: 50%;
-    top:50%;
 }
 
 .quick-view-loading {
