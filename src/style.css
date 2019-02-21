@@ -409,7 +409,7 @@ strong {
     z-index: 9998;
     position: absolute;
     top: 15%;
-    left: 100%;
+    left: 50%;
     height: 400px;
     width: 720px;
 }
