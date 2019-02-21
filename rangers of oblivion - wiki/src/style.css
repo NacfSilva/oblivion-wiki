@@ -1,0 +1,886 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+* {
+   
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+    *::selection {
+        color: white !important;
+        background: black;
+    }
+
+/*head*/
+
+html, body {
+    height: 100%;
+}
+
+#Bar {
+    top: 0;
+    background: #0A0707;
+    cursor: auto;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 2;
+}
+#BarAfter {
+    bottom: 0;
+    background: #0A0707;
+    cursor: auto;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    z-index: 2;
+}
+    #BarAfter a {
+        color:white;
+        text-decoration:none;
+        float:right;
+        font-size: 15px;
+        margin: 5px;
+    }
+        #BarAfter a:hover {
+            color: grey;
+        }
+    #BarAfter .madeby {
+        color: #DAA520;
+        float: left;
+        font-size: 15px;
+        margin: 5px;
+        cursor:default;
+    }
+        #BarAfter .madeby:hover {
+            color: #DAA520;
+        } 
+        #icon {
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+}
+
+#logoIcon {
+    margin-top:10px;
+    margin-left: 120px;
+}
+
+#logo {
+    top: 10px;
+    margin-left:10px;
+    width: 300px;
+    float: left;
+}
+
+#wiki {
+    margin-top:10px;
+    margin-left: 10px;
+    position: relative;
+    color: white;
+    font-family: 'Contrail One', cursive;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-shadow: -1px 0 #DAA520, 0 1px #DAA520, 1px 0 #DAA520, 0 -1px #DAA520;
+}
+
+
+donate {
+    margin: 20px;
+    font-size: 30px;
+    float: right;
+}
+
+
+
+/*head end*/
+section {
+    position: relative;
+    width: 100%;
+    height: 25%;
+    transition: height 0.15s ease-in-out;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    section:first-child, section:nth-child(2) {
+        color: white;
+    }
+
+    section:nth-child(3), section:nth-child(4) {
+        color: white;
+    }
+
+.TextMenu {
+    left: 70%;
+    top: 50%;
+    
+}
+.IconMenu {
+    top: 50%;
+    left: 30%;
+    fill: #FFDA61;
+}
+
+.a:hover .TextMenu {
+    color: white !important;
+}
+
+.a:hover .IconMenu {
+    fill: white !important;
+}
+
+.b:hover .TextMenu {
+    color: white !important;
+}
+
+.b:hover .IconMenu {
+    fill: white !important;
+}
+
+.c:hover .TextMenu {
+    color: white !important;
+}
+
+.c:hover .IconMenu {
+    fill: white !important;
+}
+
+.d:hover .TextMenu {
+    color: white !important;
+}
+
+.d:hover .IconMenu {
+    fill: white !important;
+}
+
+
+    section .x {
+        color: white;
+        font-size: 1.5em;
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        padding: 10px 10px;
+        cursor: pointer;
+        display: none;
+    }
+
+    section .content {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        font-size: 0.8em;
+    }
+
+    section p, section h1 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2em;
+        font-weight: 700;
+        transition: top 0.15s ease-in-out 0.30s;
+    }
+
+h1 {
+    margin: 0;
+}
+
+.d a:link, .d a:visited {
+    padding: 1em;
+    background-color: #000000;
+    color: #bdbdbd;
+    transition: background-color 0.05s ease-in-out, color 0.05s ease-in-out;
+}
+
+.c a:hover, .d a:hover {
+    background-color: #bdbdbd;
+    color: #000000;
+}
+  
+/*Gear==============================================================================================*/
+
+.a {
+    margin-top: 80px;
+    background-color: rgb(26,18,17);
+    border-bottom: 4px solid #F0A529;
+    border-top: 4px solid #F0A529;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+#wrapper {
+    margin: 0;
+    padding: 0;
+    overflow-x:auto;
+}
+    #wrapper::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+
+    #wrapper::-webkit-scrollbar {
+        width: 12px;
+        background-color: #F5F5F5;
+        border-radius: 10px;
+    }
+
+    #wrapper::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #DAA520;
+    }
+#container {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+  
+    
+}
+
+.product-container {
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.product-list {
+    width: 100%;
+    float: left;
+    background: rgb(26,18,17);
+    
+}
+
+    .product-list li {
+        float: left;
+        margin: 0 20px 20px 0;
+    }
+
+.product {
+    width: 130px;
+    height: 180px ;
+    position: relative;
+    overflow: hidden;
+    left: 100px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    
+   
+}
+
+.product img {
+    width: 100%;
+}
+
+.quick-view-controller {
+    float: left;
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    background-color: #666;
+    opacity: 0.8;
+    bottom: 0px;
+    
+}
+
+    .quick-view-controller p {
+        float: left;
+        margin: 7px 0px 7px 22px;
+    }
+
+        .quick-view-controller p a {
+            padding: 10px 15px;
+            background-color: #FFF;
+            float: left;
+            width: 80px;
+            left: -75px;
+
+        }
+
+.Armadura {
+    color: #222;
+    font-size: 12px;
+    position: absolute;
+    float: left;
+    width: 40px;
+    height: 15px;
+}
+
+
+.btn-view {
+    color: #222;
+    font-size: 12px;
+    right: -10px;
+    bottom: 0px;
+    position: absolute;
+    float: right;
+    width: 40px;
+    height: 15px;
+}
+
+.mask {
+    background-color: #000;
+    height: 800px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: none;
+    z-index: 9998;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.quick-view-pop-up {
+    margin-top: 50px;
+    display: none;
+    background: rgb(26,18,17);
+    border: 1px solid #999;
+    z-index: 9998;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    height: 400px;
+    width: 720px;
+}
+
+
+
+
+.quick-view-panel {
+    z-index: 9999;
+}
+
+.quick-view-loading {
+    width: 100%;
+    float: left;
+    display: none;
+}
+
+.mini-carousel, .carousel {
+    float: left;
+}
+
+.mini-carousel {
+    margin: 22px 0 0 10px;
+    float: left;
+    width: 97px;
+    height: 354px;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    position: relative;
+    top: 0px;
+}
+
+    .mini-carousel ul {
+        float: left;
+        width: 97px;
+        display: block;
+        top: 0;
+        position: relative;
+    }
+
+        .mini-carousel ul li {
+            float: left;
+            margin-bottom: 10px;
+            margin-top: 10px;
+
+            width: 77px ;
+            height: 80px ;
+            top: 0;
+            position: relative;
+        }
+
+.carousel {
+    float: left;
+    position: relative;
+    left: 3px;
+    top: 6px;
+    padding-left: 9px;
+    display: block;
+}
+
+.image-large {
+    float: left;
+    top: 10px;
+    width: 350px;
+    height:auto;
+    overflow: hidden;
+    display: block;
+    left: 0;
+}
+
+    .image-large ul {
+        margin: 0 0 0 0;
+        list-style: none;
+        width: 1180px;
+        height: 370px;
+        overflow: hidden;
+        position: relative;
+    }
+
+.carousel ul li {
+    float: left;
+    margin: 0;
+    
+}
+
+.video-player {
+    width: 290px;
+    height: 370px;
+    display: none;
+    position: absolute;
+    top: 10px;
+}
+
+    .video-player iframe {
+        display: block;
+        float: left;
+        margin-left: 50px;
+    }
+
+a.prev svg .fill {
+    fill: #F0A529;
+    
+
+}
+
+a.prev svg {
+    position: absolute;
+    bottom: 150px;
+    left: 0.5px;
+    height: auto;
+    width: 30px;
+    transform: rotate(180deg);
+}
+
+a.next svg .fill {
+    fill: #F0A529;
+}
+
+a.next svg {
+    position: absolute;
+    bottom: 150px;
+    right: 0.5px;
+    height: auto;
+    width: 30px;
+}
+
+.quick-view-close {
+    color:white;
+    opacity: 1;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 70px;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-repeat: no-repeat;
+    height: 24px;
+    background-position-x: -78px;
+}
+
+
+.detail {
+    color:#FFDA61;
+    position:relative;
+    width: 250px;
+    float: right;
+    margin: 40px 31px 40px 31px;
+}
+
+.product-details {
+    margin-bottom: 20px;
+    float: left;
+}
+
+.Descrition {
+    position:relative;
+    float:right;    
+    margin-bottom: 20px;
+    right:auto 50px;
+}
+
+.product-price {
+    margin-bottom: 20px;
+}
+
+.orange {
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: #d35400;
+    color: #FFF;
+    padding: 9px 21%;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.grey {
+    margin-top: 20px;
+    float: left;
+    width: 220px;
+    padding: 3%;
+    background-color: #CCC;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.option-dropdowns {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+a.view-more-detail {
+    float: left;
+    width: 81%;
+    background-color: #356890;
+    padding: 5% 5%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+}
+
+
+
+/*armor end==========================================================================================*/
+
+
+h1 {
+    color: #FFDA61;
+    font-family: 'Contrail One', cursive;
+    letter-spacing: 2px;
+}
+
+p {
+    color: #FFDA61;
+    font-family: 'Contrail One', cursive;
+    letter-spacing: 2px;
+}
+
+.b {
+    background-color: rgb(26,18,17);
+    border-bottom: 4px solid #F0A529;
+}
+
+/*
+    Companions ====================================================================================
+*/
+
+
+
+.companions {
+    width: auto;
+    height: 500px;
+    background-color: rgb(26,18,17);
+    overflow-x: auto;
+    text-align: center;
+    margin: auto;
+}
+
+    .companions figure {
+        width: 250px;
+        
+    }
+
+    .companions .zoom-image:hover {
+        margin-top:100px;
+        transition: all 200ms linear;
+        transform: scale(3);
+        opacity: 1;
+        z-index: 990000 !important;
+        
+    }
+    .companions .zoom-image:hover:after {
+        z-index: 1;
+    }
+
+    .companions .zoom-image {
+        opacity: 1;
+        transform: scale(1.0);
+        transition: all 500ms linear;
+        position: relative;
+        width: 230px;
+        height: 90px;
+        float: left;
+        z-index: 1;
+        margin: 10px 10px;
+        left: 70px;
+    }
+    .companions::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+
+    .companions::-webkit-scrollbar {
+        width: 12px;
+        background-color: #F5F5F5;
+        border-radius: 10px;
+    }
+
+    .companions::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #DAA520;
+    }
+
+
+/* 
+    EndCompanions ==================================================================================== 
+
+*/
+
+/* Start Maps*/
+.c {
+    background-color: rgb(26,18,17);
+    border-bottom: 4px solid #F0A529;
+}
+
+    .c ul {
+        list-style-type: none;
+    }
+
+        .c ul li {
+            position: relative;
+            margin: 1.5em 5px;
+            display: block;
+        }
+
+    .c a:link, .c a:visited {
+        padding: 0.5em;
+        font-size: 1em;
+        background-color: #000000;
+        color: #ffffff;
+        transition: background-color 0.05s ease-in-out, color 0.05s ease-in-out;
+    }
+
+    .c a:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+.content {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26,18,17);
+    
+}
+.Maps {
+    text-align: center;
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(26,18,17);
+    position: relative;
+    left: 100px;
+}
+
+    .Maps figure {
+        width: 250px;
+    }
+
+
+    .Maps .zoom-image:hover {
+
+        transition: all 200ms linear;
+        transform: scale(2);
+        opacity: 1;
+        z-index: 99;
+    }
+
+    .Maps .zoom-image {
+        opacity: 1;
+        transform: scale(1.3);
+        transition: all 500ms linear;
+        position: relative;
+        width: 200px;
+        height: 130px;
+        float: left;
+        z-index: 1;
+        margin: 45px;
+        margin-bottom: 20px
+    }
+
+
+/* End Maps*/
+
+/* fishes */
+
+.d {
+    background-color: rgb(26,18,17);
+    border-bottom: 4px solid #F0A529;
+}
+
+    .d a:link, .d a:visited {
+        font-size: 1.5em;
+    }
+
+.fishes {
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+    .fishes figure {
+        width: 250px;  
+         margin: 40px;
+    }
+    .fishes table {
+        width: 600px;
+        height: 500px;
+        background-color: rgb(26,18,17);
+        position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+        .fishes table tr td .zoom-image:hover {
+            transition: all 200ms linear;
+            transform: scale(1.7);
+            opacity: 1;
+            z-index: 990;
+            display: inline-block;
+        }
+
+        .fishes table tr td .zoom-image {
+            opacity: 1;
+            transform: scale(1);
+            transition: all 500ms linear;
+            width: 200px;
+            height: 130px;
+            z-index: 10;
+            margin: 20px 40px;
+            display: inline-block;
+        }
+.fishes::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+    .fishes::-webkit-scrollbar {
+        width: 12px;
+        background-color: #F5F5F5;
+        border-radius: 10px;
+    }
+
+    .fishes::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #DAA520;
+    }
+
+/* end fishes */
+
+.hover {
+    height: 40%;
+}
+
+.unhover {
+    height: 20%;
+}
+
+.click {
+    height: 100%;
+    cursor: default;
+}
+
+    .click p, .click h1 {
+        top: 25%;
+    }
+
+    .click h1 {
+        top: 50%;
+    }
+
+.unclick {
+    height: 0%;
+}
+
+    .unclick p, .unclick h1 {
+        opacity: 0;
+    }
