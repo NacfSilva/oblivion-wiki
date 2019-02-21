@@ -388,7 +388,7 @@ strong {
 .mask {
     background-color: #000;
     height: 800px;
-    left: 0;
+    right: 30%;
     position: fixed;
     top: 0;
     width: 100%;
@@ -409,7 +409,7 @@ strong {
     z-index: 9998;
     position: absolute;
     top: 15%;
-    right: 25%;
+    left: 25%;
     height: 400px;
     width: 720px;
 }
