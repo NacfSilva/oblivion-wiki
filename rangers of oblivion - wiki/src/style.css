@@ -388,7 +388,7 @@ strong {
 .mask {
     background-color: #000;
     height: 800px;
-    left: 30;
+    left: 0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -412,6 +412,7 @@ strong {
     left: 25%;
     height: 400px;
     width: 720px;
+    overflow:auto;
 }
 
 
