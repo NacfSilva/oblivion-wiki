@@ -655,6 +655,7 @@ p {
     overflow-x: auto;
     text-align: center;
     margin: auto;
+    bottom: 50%;
 }
 
     .companions figure {
