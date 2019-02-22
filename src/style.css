@@ -649,18 +649,17 @@ p {
 
 
 .companions {
-    width: auto;
+    width: 50%;
     height: 500px;
     background-color: rgb(26,18,17);
     overflow-x: auto;
     text-align: center;
     margin: auto;
-    bottom: 50%;
 }
 
     .companions figure {
         width: 250px;
-        bottom: 50%;
+        
     }
 
     .companions .zoom-image:hover {
@@ -669,12 +668,10 @@ p {
         transform: scale(3);
         opacity: 1;
         z-index: 990000 !important;
-        bottom: 50%;
         
     }
     .companions .zoom-image:hover:after {
         z-index: 1;
-        bottom: 50%;
     }
 
     .companions .zoom-image {
@@ -688,7 +685,6 @@ p {
         z-index: 1;
         margin: 10px 10px;
         left: 70px;
-        bottom: 50%;
     }
     .companions::-webkit-scrollbar-track {
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
