@@ -709,7 +709,8 @@ p {
         background-color: #DAA520;
     }
 
-    #13:hover {
+
+    .companions .zoom-image #13:hover {
         margin-right: 100px;
         
     }
