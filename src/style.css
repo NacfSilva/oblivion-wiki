@@ -649,7 +649,7 @@ p {
 
 
 .companions {
-    width: 50%;
+    width: auto;
     height: 500px;
     background-color: rgb(26,18,17);
     overflow-x: auto;
@@ -672,6 +672,8 @@ p {
     }
     .companions .zoom-image:hover:after {
         z-index: 1;
+        width: 50%;
+        margin: 0 auto;
     }
 
     .companions .zoom-image {
