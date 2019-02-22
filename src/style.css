@@ -665,8 +665,7 @@ p {
 
     .companions .zoom-image:hover {
         margin-top:25px;
-        margin-left:50px;
-        margin-right: 50px;
+        margin-right: 100px;
         transition: all 200ms linear;
         transform: scale(3);
         opacity: 1;
