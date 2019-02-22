@@ -710,8 +710,9 @@ p {
     }
 
 
-    .companions .zoom-image #c13:hover {
+    #c13:hover {
         margin-right: 100px;
+        right: 100px;
         
     }
 
