@@ -672,8 +672,6 @@ p {
     }
     .companions .zoom-image:hover:after {
         z-index: 1;
-        width: 50%;
-        margin: 0 auto;
     }
 
     .companions .zoom-image {
@@ -687,6 +685,7 @@ p {
         z-index: 1;
         margin: 10px 10px;
         left: 70px;
+        top:50%;
     }
     .companions::-webkit-scrollbar-track {
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -716,16 +715,19 @@ p {
 .c {
     background-color: rgb(26,18,17);
     border-bottom: 4px solid #F0A529;
+    
 }
 
     .c ul {
         list-style-type: none;
+        
     }
 
         .c ul li {
             position: relative;
             margin: 1.5em 5px;
             display: block;
+            
         }
 
     .c a:link, .c a:visited {
@@ -734,16 +736,19 @@ p {
         background-color: #000000;
         color: #ffffff;
         transition: background-color 0.05s ease-in-out, color 0.05s ease-in-out;
+        
     }
 
     .c a:hover {
         background-color: #000000;
         color: #ffffff;
+        
     }
 .content {
     width: 100%;
     height: 100%;
     background-color: rgb(26,18,17);
+    
     
 }
 .Maps {
@@ -754,10 +759,12 @@ p {
     background-color: rgb(26,18,17);
     position: relative;
     left: 100px;
+    
 }
 
     .Maps figure {
         width: 250px;
+        
     }
 
 
@@ -767,6 +774,7 @@ p {
         transform: scale(2);
         opacity: 1;
         z-index: 99;
+        
     }
 
     .Maps .zoom-image {
@@ -779,7 +787,8 @@ p {
         float: left;
         z-index: 1;
         margin: 45px;
-        margin-bottom: 20px
+        margin-bottom: 20px;
+        top:10%;
     }
 
 
