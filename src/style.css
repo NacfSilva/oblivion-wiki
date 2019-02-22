@@ -655,6 +655,7 @@ p {
     overflow-x: auto;
     text-align: center;
     margin: auto;
+    margin-top:5%;
 }
 
     .companions figure {
@@ -668,6 +669,9 @@ p {
         transform: scale(3);
         opacity: 1;
         z-index: 990000 !important;
+        position: relative;
+        top:50%;
+        left: 50%;
         
     }
     .companions .zoom-image:hover:after {
@@ -685,7 +689,7 @@ p {
         z-index: 1;
         margin: 10px 10px;
         left: 70px;
-        top:50%;
+        
     }
     .companions::-webkit-scrollbar-track {
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
