@@ -688,8 +688,8 @@ p {
         float: left;
         z-index: 1;
         margin: 10px 10px;
-        left: 70px;
-        right: 30px;
+        left: 30px;
+        right: 70px;
         
     }
     .companions::-webkit-scrollbar-track {
