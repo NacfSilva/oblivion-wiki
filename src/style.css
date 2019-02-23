@@ -709,6 +709,10 @@ p {
         background-color: #DAA520;
     }
     
+    #c13 .zoom-image:hover, #c16 .zoom-image:hover, #c19 .zoom-image:hover{
+
+        margin-right: 250px;
+    }
 
 /* 
     EndCompanions ==================================================================================== 
