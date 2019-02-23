@@ -689,6 +689,7 @@ p {
         z-index: 1;
         margin: 10px 10px;
         left: 70px;
+        right: 30px;
         
     }
     .companions::-webkit-scrollbar-track {
@@ -707,11 +708,6 @@ p {
         border-radius: 10px;
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
         background-color: #DAA520;
-    }
-    
-    #c13 .zoom-image:hover, #c16 .zoom-image:hover, #c19 .zoom-image:hover{
-
-        margin-right: auto;
     }
 
 /* 
