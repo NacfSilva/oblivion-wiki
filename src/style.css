@@ -680,7 +680,7 @@ p {
 
     .companions .zoom-image {
         opacity: 1;
-        transform: scale(0.5);
+        transform: scale(1.0);
         transition: all 500ms linear;
         position: relative;
         width: 100px;
