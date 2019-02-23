@@ -655,7 +655,7 @@ p {
     overflow-x: auto;
     text-align: center;
     margin: auto;
-    margin-top:5%;
+    margin-top:10px;
 }
 
     .companions figure {
@@ -667,7 +667,7 @@ p {
         margin-top:25px;
         margin-right: 100px;
         transition: all 200ms linear;
-        transform: scale(6);
+        transform: scale(5);
         opacity: 1;
         z-index: 990000 !important;
         
@@ -688,8 +688,7 @@ p {
         float: left;
         z-index: 1;
         margin: 10px 10px;
-        left: 30px;
-        right: 70px;
+        left: 70px;
         
     }
     .companions::-webkit-scrollbar-track {
