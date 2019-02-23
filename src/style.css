@@ -683,8 +683,8 @@ p {
         transform: scale(0.5);
         transition: all 500ms linear;
         position: relative;
-        width: 230px;
-        height: 90px;
+        width: 100px;
+        height: 50px;
         float: left;
         z-index: 1;
         margin: 10px 10px;
