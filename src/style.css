@@ -652,7 +652,7 @@ p {
     width: auto;
     height: 500px;
     background-color: rgb(26,18,17);
-    overflow-x: auto;
+    overflow-y: auto;
     position: absolute;
     top: 10%;
     left: 30%;
@@ -663,18 +663,29 @@ p {
         width: 250px;
         
     }
-
+    @media (min-width: 1001px){
     .companions .zoom-image:hover {
-        margin-top:25px;
-        margin-right: 100px;
         transition: all 200ms linear;
         transform: scale(3.4);
         opacity: 1;
         z-index: 990000 !important;
-        
+    
+    }
+    }
+
+        @media (max-width: 1000px){
+            .companions .zoom-image:hover {
+                transition: all 200ms linear;
+                transform: scale(5);
+                opacity: 1;
+                z-index: 990000 !important;
+            
+            }
+
+        }
       
         
-    }
+    
     .companions .zoom-image:hover:after {
         z-index: 1;
     }
