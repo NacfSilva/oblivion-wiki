@@ -653,8 +653,9 @@ p {
     height: 500px;
     background-color: rgb(26,18,17);
     overflow-x: auto;
-    text-align: center;
-    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 30%;
     
 }
 
@@ -667,7 +668,7 @@ p {
         margin-top:25px;
         margin-right: 100px;
         transition: all 200ms linear;
-        transform: scale(5);
+        transform: scale(3);
         opacity: 1;
         z-index: 990000 !important;
         
