@@ -824,8 +824,8 @@ p {
 .fishes {
     text-align: center;
     margin: auto;
-    width: 800px;
-    height: 500px;
+    width: 900px;
+    height: 600px;
     white-space: nowrap;
     overflow-y: hidden;
     overflow-x: scroll;
@@ -840,10 +840,12 @@ p {
         height: 500px;
         background-color: rgb(26,18,17);
         position: relative;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        left:10%;
+        top:10%;
 
     }
 
