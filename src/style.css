@@ -773,7 +773,8 @@ p {
     height: 500px;
     background-color: rgb(26,18,17);
     position: relative;
-    left: 100px;
+    left:5%;
+    top:5%;
     
 }
 
