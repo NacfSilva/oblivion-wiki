@@ -668,7 +668,7 @@ p {
         margin-top:25px;
         margin-right: 100px;
         transition: all 200ms linear;
-        transform: scale(3);
+        transform: scale(3.4);
         opacity: 1;
         z-index: 990000 !important;
         
