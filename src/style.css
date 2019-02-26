@@ -387,7 +387,7 @@ strong {
 
 .mask {
     background-color: #000;
-    height: 800px;
+    height: 900px;
     left: 0;
     position: fixed;
     top: 0;
@@ -410,8 +410,8 @@ strong {
     position: absolute;
     top: 15%;
     left: 25%;
-    height: 400px;
-    width: 40%;
+    height: 450px;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
 }
@@ -475,12 +475,12 @@ strong {
 
 .image-large {
     float: left;
-    top: 10px;
-    width: 310px;
+    top: 10%;
+    width: 340px;
     height:auto;
     overflow: hidden;
     display: block;
-    left: 0;
+    left: 10%;
 }
 
     .image-large ul {
@@ -490,6 +490,8 @@ strong {
         height: 370px;
         overflow: hidden;
         position: relative;
+        top: 10%;
+        left: 10%;
     }
 
 .carousel ul li {
@@ -521,7 +523,7 @@ a.prev svg .fill {
 a.prev svg {
     position: absolute;
     bottom: 150px;
-    left: 0.5px;
+    left: 25px;
     height: auto;
     width: 30px;
     transform: rotate(180deg);
@@ -534,7 +536,7 @@ a.next svg .fill {
 a.next svg {
     position: absolute;
     bottom: 150px;
-    right: 0.5px;
+    left: 340px;
     height: auto;
     width: 30px;
 }
