@@ -391,7 +391,7 @@ strong {
     left: 0;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 90%;
     display: none;
     z-index: 9998;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
@@ -411,7 +411,7 @@ strong {
     top: 15%;
     left: 25%;
     height: 400px;
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
     text-align: center;
 }
@@ -476,7 +476,7 @@ strong {
 .image-large {
     float: left;
     top: 10px;
-    width: 350px;
+    width: 310px;
     height:auto;
     overflow: hidden;
     display: block;
